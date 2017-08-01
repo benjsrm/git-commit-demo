@@ -40,7 +40,3 @@ class AuthenticationError extends Error {
 }
 
 
-reject(new AccountError({
-	codeName: 'ERR_NOT_FOUND'
-}))
-
